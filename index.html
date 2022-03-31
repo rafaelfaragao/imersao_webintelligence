@@ -6,18 +6,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="HTML5, CSS, JavaScript">
   <title>Receita de Bolo</title>
+
+  <style>
+    body{
+      width:80vw;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #quebra-texto {
+      width: 100%;
+      height: 2px;
+      background-color: #000;
+    }
+
+    hgroup img {
+      width: 100%;
+      margin: 0 auto;
+      height: 600px;
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
     <hgroup>
-      <img src="/receitas-da-vovo.jpg" alt="Receitas da Vó">
-      <h1>Receitas da vó</h1>
+      <img src="/familia-cozinha.jpg" alt="Receitas da Vó">
+      <h1>Receitas para fazer com a família</h1>
     </hgroup>
+    <div id="quebra-texto"></div>
     <section>
       <h2>Bolo de Rolo</h2>
+      <img src="/boloderolo.jpg">
       <h3>Ingredientes</h3>
       <ul>
         <li>Massa
-          <ul>
+          <ul type="square">
             <li>1 e 1/2 xícara (chá) de açúcar</li>
             <li>10 colheres (sopa) de manteiga</li>
             <li>5 ovos</li>
@@ -26,7 +48,7 @@
           </ul>
         </li>
         <li>Recheio
-          <ul>
+          <ul type="square">
             <li>300 g de goiabada em barra ou</li>
             <li>400 g de goiabada cremosa</li>
           </ul>
@@ -35,8 +57,10 @@
 
       <h3>Preparo</h3>
 
-      <p>Massa: bata a manteiga e o açúcar até obter um creme fofo e claro. Acrescente os ovos um a um batendo sempre. Se desejar, nesse momento adicione a essência. Diminua a batedeira para a velocidade mínima e, aos poucos, acrescente a farinha de trigo. Bata o suficiente apenas para misturar a massa. Preaqueça o forno à 240ºC. Espalhe cerca de 4 a 5 colheres de massa com o auxílio de uma espátula de cortar bolo em cada assadeira. Cada camada leva aproximadamente de 3 a 4 minutos para assar. Você saberá o ponto certo quando a massa estiver opaca e não colar no seu dedo. Tire imediatamente para não passar do ponto. Espalhe o recheio e enrole ainda quente. Faça do mesmo modo com as demais camadas, porém você irá juntá-las pela emenda. Decore com açúcar.</p>
-      <p>Recheio: se usar goiabada em barra, cozinhe em 500 ml de água. Derreta a goiabada com água em fogo baixo e deixe engrossar até atingir a textura desejada para espalhar.</p>
+      <p><strong>Massa:</strong> bata a manteiga e o açúcar até obter um creme fofo e claro. Acrescente os ovos um a um batendo sempre. Se desejar, nesse momento adicione a essência. Diminua a batedeira para a velocidade mínima e, aos poucos, acrescente a farinha de trigo. Bata o suficiente apenas para misturar a massa. Preaqueça o forno à 240ºC. Espalhe cerca de 4 a 5 colheres de massa com o auxílio de uma espátula de cortar bolo em cada assadeira. Cada camada leva aproximadamente de 3 a 4 minutos para assar. Você saberá o ponto certo quando a massa estiver opaca e não colar no seu dedo. Tire imediatamente para não passar do ponto. Espalhe o recheio e enrole ainda quente. Faça do mesmo modo com as demais camadas, porém você irá juntá-las pela emenda. Decore com açúcar.</p>
+      <p><strong>Recheio:</strong> se usar goiabada em barra, cozinhe em 500 ml de água. Derreta a goiabada com água em fogo baixo e deixe engrossar até atingir a textura desejada para espalhar.</p>
     </section>
+  </div>
+    
 </body>
 </html>
