@@ -4,12 +4,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
   <title>Login - Web Intelligence</title>
 </head>
 <body>
   <div class="container">
     <header>
       <h1>Login</h1>
+      <div id="bordergradient"></div>
     </header>
     <main>
       <form action="#">
@@ -17,15 +19,17 @@
         <input type="text" name="user" id="user">
         <label for="password">Sua senha</label>
         <input type="password" name="password" id="password">
-        <input type="checkbox" name="connected" id="connected">
-        <label for="connected">Manter conectado</label>
+        <div id="checkconnection">
+          <input type="checkbox" name="connected" id="connected">
+          <label for="connected">Manter conectado</label>
+        </div>
         <button type="submit">Logar</button>
       </form>
-      <footer>
-        <p>Ainda não tem conta?</p>
-        <button class="register">Cadastrar-se</button>
-      </footer>
     </main>
+    <footer>
+      <p>Ainda não tem conta?</p>
+      <a href="form.html">Cadastrar-se</a>
+    </footer>
   </div>
 </body>
 </html>

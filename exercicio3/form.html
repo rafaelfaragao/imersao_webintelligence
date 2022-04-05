@@ -12,13 +12,52 @@
     <p>Complete com suas informações</p>
   </header>
   <form action="#">
-    <label for=""></label>
-    <input type="text" name="" id="">
-    <label for=""></label>
-    <input type="text" name="" id="">
+    <label for="name">Nome:</label>
+    <input type="text" name="name" id="name">
+    <label for="email">E-mail:</label>
+    <input type="text" name="email" id="email">
+  
+    <p>De qual lado da aplicação você desenvolve?<br>
+      <input type="radio" name="stack" value="frontend">frontend<br>
+      <input type="radio" name="stack" value="backend">backend<br>
+      <input type="radio" name="stack" value="fullstack">fullstack<br>
+    </p>
+    
+    <p>Senioridade:<br>
+      <select name="senioridade">
+        <option value="junior">Junior</option>
+        <option value="plenor">Pleno</option>
+        <option value="senior">Senior</option>
+      </select>
+    </p>
 
-    <label for=""></label>
-    <input type="radio" name="stack" id="frontend">
+    <p>Selecione as tecnologias que você utiliza no FrontEnd: 
+      <input type="checkbox" name="html5" value="html5"><label for="html5">HTML5 </label>
+      <input type="checkbox" name="css3" value="css3"><label for="css3">CSS3 </label>
+      <input type="checkbox" name="angular" value="angular"><label for="angular">Angular.JS </label>
+      <input type="checkbox" name="vue" value="vue"><label for="vue">Vue.JS </label>
+      <input type="checkbox" name="react" value="react"><label for="react">React.JS </label>
+    </p>
+    <p>Selecione as tecnologias que você utiliza no BackEnd: 
+      <input type="checkbox" name="python" value="python"><label for="python">Python </label>
+      <input type="checkbox" name="csharp" value="csharp"><label for="csharp">C# </label>
+      <input type="checkbox" name="javascript" value="javascript"><label for="javascript">Javascript </label>
+      <input type="checkbox" name="php" value="php"><label for="php">PHP </label>
+      <input type="checkbox" name="java" value="java"><label for="java">Java </label>
+    </p>
+    <p>Selecione o banco de dados que você utilza: 
+      <input type="checkbox" name="mysql" value="mysql"><label for="mysql">Mysql </label>
+      <input type="checkbox" name="sqlserver" value="sqlserver"><label for="sqlserver">SQL Server </label>
+      <input type="checkbox" name="postgree" value="postgree"><label for="postgree">PostgreSQL </label>
+      <input type="checkbox" name="mongo" value="mongo"><label for="mongo">MongoDB </label>
+      <input type="checkbox" name="db2" value="db2"><label for="db2">DB2 </label>
+    </p>
+
+    <p>
+      Conte um pouco mais da sua experiência:<br>
+      <textarea name="experiencia" cols="100" rows="10"></textarea>
+    </p>
+    <button type="submit">Concluído</button>
   </form>
 </body>
 </html>
